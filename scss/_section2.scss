@@ -1,0 +1,106 @@
+#section2
+{   display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: section2;
+}
+.tituloSection2
+{   color: white;
+    text-align: center;
+    font-size: 3rem;
+     
+}
+.videodivSection
+{
+    background-color: re;
+}
+
+/* Div Hijos Camionetas.html */
+.bmwHijo1{
+    display: flex;
+    background-color: white;
+    margin: 0px 10px 0px 0px;
+    padding: 0px 10px 0px 0px;
+    border: 1px solid black;
+}
+
+.tituloBmw {
+ text-align: center;
+ color: white;
+
+}
+/* Section 2 autos.html AUDI */
+
+
+#section2autos
+{  
+    
+    grid-area: section2autos;
+}
+.audiPadre
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.audipadrePadre
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+.audiHijo{
+    background-color: white;
+}
+.tituloAudi{
+    text-align: center;
+    color: white;
+   }
+
+.audiHijo
+{   
+  
+  
+    border: 1px solid black;
+}
+
+/* contacto.html */
+
+#section2contacto
+{  
+    
+    grid-area: section2contacto;
+}
+
+
+
+#section2nosotros
+{   
+    grid-area: section2nosotros;
+   
+  
+}
+
+
+
+.texto
+{
+    color: white;
+}
+
+
+

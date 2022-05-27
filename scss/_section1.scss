@@ -1,0 +1,97 @@
+/* SECTION 1 */
+#section1
+{   display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: section1;
+}
+
+
+/* autos html */
+#section1autos
+{  
+    grid-area: section1autos;
+ 
+  
+}
+
+.bmwPadre
+{   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.bmwpadrePadre
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bmwHijo
+{   display: flex;
+    background-color: white;
+    margin: 0px 5px 0px 0px;
+    padding: 1px 1px 1px 1px;
+    border: 1px solid black;
+}
+
+/* nosotros.html */
+
+#section1nosotros
+{  
+    display: flex;
+    justify-content: center;
+    grid-area: section1nosotros;
+    background-color: ellow;
+  
+}
+
+
+/* contacto .html */
+
+#section1contacto
+{  display: flex;
+  justify-content: center;
+    grid-area: section1contacto;
+  
+}
+
+
+.section1Indiv {
+    grid-area: sectionIndiv;
+  }
+  
+  .red {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imagenAuto {
+    height: 70%;
+    width: 90%;
+  }
+  
+  .textoIndividual {
+    color: white;
+  }
+  
